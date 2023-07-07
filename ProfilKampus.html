@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas Teknokrat Indonesia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .banner {
+            background-color: #
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-color: black;
+        }
+
+        .buttonClass {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 140px;
+            height: 50px;
+            border-width: 1px;
+            color: #000000;
+            font-weight: bold;
+            background: #ffffff;
+        }
+
+        .buttonClass:hover {
+            background: #e6dddd
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 10px;
+            }
+
+            nav li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            section {
+                padding: 10px;
+            }
+
+            section h2 {
+                font-size: 20px;
+            }
+
+            section ul {
+                padding-left: 20px;
+            }
+
+            .embed-responsive {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+            }
+
+            .embed-responsive .embed-responsive-item,
+            .embed-responsive iframe,
+            .embed-responsive embed,
+            .embed-responsive object,
+            .embed-responsive video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            section img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            #biodata img {
+                max-width: 250px;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="UTI.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="#beranda" class="buttonClass">Beranda</a></li>
+                <li><a href="#fakultas" class="buttonClass">Fakultas</a></li>
+                <li><a href="#program-studi" class="buttonClass">Program Studi</a></li>
+                <li><a href="#fasilitas" class="buttonClass">Fasilitas</a></li>
+                <li><a href="#kontak" class="buttonClass">Kontak</a></li>
+                <li><a href="#biodata" class="buttonClass">Biodata</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="beranda" style="text-align: center;">
+        <img src="UTI2.jpg" alt="">
+        <section><br></section>
+        <img src="logo uti.png" alt="" height="40px" width="40px">
+        <h2>Selamat Datang di Kampus Sang Juara</h2>
+        <p>Kampus Universitas Teknokrat adalah kampus yang terletak di kota Bandar Lampung. Kampus ini memiliki berbagai Fakultas dan program studi yang dapat dipilih oleh mahasiswa, serta fasilitas yang lengkap dan modern.</p>
+    </section>
+    <section>
+        <section><br></section>
+        <section id="fakultas">
+            <h2>Fakultas</h2>
+            <p>Universitas Teknokrat memiliki berbagai fakultas yang dapat dipilih oleh mahasiswa, di antaranya:</p>
+            <ul>
+                <li>Fakultas Teknik dan Ilmu Komputer</li>
+                <li>Fakultas Ekonomi dan Bisnis</li>
+                <li>Fakultas Sastra dan Ilmu Pendidikan</li>
+            </ul>
+        </section>
+        <section id="program-studi">
+            <h2>Program Studi FTIK</h2>
+            <p>Universitas Teknokrat memiliki berbagai program studi yang dapat dipilih oleh mahasiswa, di antaranya:</p>
+            <ul>
+                <li>S1 Informatika</li>
+                <li>S1 Teknik Elektro</li>
+                <li>S1 Teknik Sipil</li>
+                <li>S1 Teknik Komputer</li>
+                <li>S1 Teknologi Informasi</li>
+                <li>S1 Sitem Informasi</li>
+                <li>D3 Sistem Informasi Akutansi</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Program Studi FEB</h2>
+            <ul>
+                <li>S1 Akuntansi</li>
+                <li>S1 Manajemen</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Program Studi FSIP</h2>
+            <ul>
+                <li>S1 Pendidikan Matematika</li>
+                <li>S1 Pendidikan B.Inggris</li>
+                <li>S1 Pendidikan Olaheraga</li>
+                <li>S1 Sastra Inggris</li>
+            </ul>
+        </section>
+        <section id="fasilitas">
+            <h2>Fasilitas</h2>
+            <p>Kampus Universitas Teknokrat memiliki fasilitas yang lengkap dan modern, di antaranya:</p>
+            <ul>
+                <li>Laboratorium Komputer</li>
+                <li>Laboratorium Elektronika</li>
+                <li>Perpustakaan</li>
+                <li>Ruang Kelas</li>
+            </ul>
+        </section>
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>Anda dapat menghubungi kampus Universitas Teknokrat melalui:</p>
+            <ul>
+                <li>Jl. ZA. Pagar AlamNo.9 -11, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132</li>
+                <li>uti@teknokrat.ac.id</li>
+                <li>0812-7895-3962 (Chat Only)</li>
+            </ul>
+        </section>
+        <div style="display: flex; justify-content: center;">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" height="400" width="600" src="https://www.youtube.com/embed/4MNvwQIQN6g" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <section><br></section>
+    </section>
+    <section><br></section>
+    <section id="biodata" style="text-align:center;">
+        <h2>Biodata</h2>
+        <img src="Abror.jpeg" alt="Abror" height="500px" width="250px">
+        <p>Nama    : Abror Abdul Gani</p>
+        <p>Npm     : 21312022</p>
+        <p>Jurusan : S1 Informatika</p>
+    </section>
+    <section><br></section>
+    <footer style="text-align: center;">
+        <p>&copy; 2023 Universitas Teknokrat Indonesia</p>
+    </footer>
+</body>
+</html>
